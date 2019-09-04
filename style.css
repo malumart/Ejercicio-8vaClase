@@ -57,7 +57,7 @@ h3{
   padding-bottom:100px;
 }
 
-#portfolio{
+#portfolio, #contact{
   background-color: #ffffff;
   color:#000000;
   padding:40px;
@@ -71,12 +71,13 @@ h3{
   text-align:center;
 }
 
-#portfolio hr{
+#portfolio hr, #contact hr{
   height: 5px;
   width: 15%;
   background-color: black;
   border: 1px solid black;
   border-radius: 5px;
+  margin-bottom: 40px;
 }
 
 .about{
@@ -91,6 +92,7 @@ h3{
   background-color: white;
   border: 1px solid white;
   border-radius: 5px;
+  margin-bottom: 40px;
 }
 
 .about-text{
@@ -103,4 +105,34 @@ h3{
 a{ 
   color: #ffffff; 
   text-decoration: none;
+}
+
+#contact p
+{
+  padding-left:100px;
+  padding-right: 100px; 
+  text-align: left;
+}
+
+input[type=text], input[type=email], input[type=number], textarea{
+  border: none;
+  border-bottom: 1px solid lightslategray;
+  width:500px;
+  height:25px;
+  display:block;
+  padding: 3px;
+}
+
+input[type=submit]{
+  background-color: #1abc9c;
+  border-radius: 5px;
+  height:40px;
+  width:70px;
+  color: white;
+  margin-top: 20px;
+}
+
+textarea{
+  resize: none;
+  height: 80px;
 }
