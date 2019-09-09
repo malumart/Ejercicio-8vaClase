@@ -63,12 +63,20 @@ h3{
   padding:40px;
 }
 
+.imgportfolio{
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  text-align:center;
+  align-items:center;
+}
+
 #portfolio img{
   width: 300px;
   margin:20px;
-  display: inline-block;
   border-radius: 5%;
-  text-align:center;
+  margin:10px;
 }
 
 #portfolio hr, #contact hr{
@@ -136,3 +144,17 @@ textarea{
   resize: none;
   height: 80px;
 }
+
+@media (max-width: 660px){
+  .header{
+    background-color:darkkhaki;
+  }
+  
+}
+
+@media (min-width:601px) and (max-width: 800px){
+  .header{
+    background-color:lightcoral;
+  }
+}
+
